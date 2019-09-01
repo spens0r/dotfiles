@@ -1,0 +1,15 @@
+[color]
+  ui = auto
+[alias]
+  ci = commit
+  co = checkout
+  st = status
+  br = branch
+  ds = diff --staged
+[core]
+  excludesfile = ~/.gitignore
+[user]
+  name = spencer
+  email = spencer@regalado.net
+[rebase]
+  autosquash = true
