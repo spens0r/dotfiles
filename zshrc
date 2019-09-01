@@ -9,6 +9,9 @@ setopt no_global_rcs
 set -o emacs
 
 ls --color=auto &> /dev/null && alias ls='ls --color=auto'
+alias g=git
+alias gd='git diff'
+alias gs='git status'
 
 git_prompt_info() {
   ref=$($(which git) symbolic-ref HEAD 2> /dev/null) || return
